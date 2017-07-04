@@ -1,0 +1,2 @@
+home.title = L'internationalisation avec les messages
+default.message = Exemple de jeu de cadre

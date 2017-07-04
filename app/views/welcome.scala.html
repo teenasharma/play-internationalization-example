@@ -1,0 +1,20 @@
+@(message: String, style: String = "scala")(implicit messages: MessagesProvider)
+
+@defining(play.core.PlayVersion.current) { version =>
+    <section>
+        <div class="wrapper">
+            @if(messages.messages.lang.language.equals("en")) {
+                <a class = "button" href="@routes.MySupportController.homePageInFrench()">fr</a>
+            } else {
+                <a class = "button" href="@routes.MySupportController.homePageWithDefaultLang()">en</a>
+            }
+        </div>
+    </section>
+
+    <div id="content" class="wrapper doc">
+        <article>
+            <h1>@message</h1>
+            <h2>@messages.messages("home.title")</h2>
+        </article>
+    </div>
+}
