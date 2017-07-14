@@ -1,58 +1,24 @@
-[<img src="https://img.shields.io/travis/playframework/play-scala-starter-example.svg"/>](https://travis-ci.org/playframework/play-scala-starter-example)
+#  play-internationalization-example
 
-# play-scala-starter-example
+This is a basic application for implementing internationalization with Play Framework 2.6.0
 
-This is a starter application that shows how Play works.  Please see the documentation at https://www.playframework.com/documentation/latest/Home for more details.
+## Instructions :-
 
-## Running
+- To run the Play Framework, Create a new application
 
-Run this using [sbt](http://www.scala-sbt.org/).  If you downloaded this project from http://www.playframework.com/download then you'll find a prepackaged version of sbt in the project directory:
+- If you have never used Play before, then you can download a basic starter project from [here](http://www.playframework.com/download) 
 
-```
-sbt run
-```
+- Create a new application using SBT:
 
-And then go to http://localhost:9000 to see the running web application.
+  sbt new playframework/play-scala-seed.g8
+  
+- Execute sbt clean compile to build the product
 
-There are several demonstration files available in this template.
+- Execute sbt run to execute the product
 
-## Controllers
-
-- HomeController.scala:
-
-  Shows how to handle simple HTTP requests.
-
-- AsyncController.scala:
-
-  Shows how to do asynchronous programming when handling a request.
-
-- CountController.scala:
-
-  Shows how to inject a component into a controller and use the component when
-  handling requests.
-
-## Components
-
-- Module.scala:
-
-  Shows how to use Guice to bind all the components needed by your application.
-
-- Counter.scala:
-
-  An example of a component that contains state, in this case a simple counter.
-
-- ApplicationTimer.scala:
-
-  An example of a component that starts when the application starts and stops
-  when the application stops.
-
-## Filters
-
-- Filters.scala:
-
-  Creates the list of HTTP filters used by your application.
-
-- ExampleFilter.scala
-
-  A simple filter that adds a header to every response.
-# play-internationalization-example
+- now application should be accessible at localhost:9000
+  
+## Reference :-
+  
+  [Play Framework 2.6.x](https://www.playframework.com/documentation/2.6.x/ScalaI18N)
+  
