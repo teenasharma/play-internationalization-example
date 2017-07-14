@@ -4,15 +4,13 @@ This is a basic application for implementing internationalization with Play Fram
 
 ## Instructions :-
 
-- To run the Play Framework, Create a new application
+- The Github code for the project is at : playing-reactive-mongo
 
-- If you have never used Play before, then you can download a basic starter project from [here](http://www.playframework.com/download) 
+- Clone the project into local system
 
-- Create a new application using SBT:
+- To run the Play Framework
 
-  sbt new playframework/play-scala-seed.g8
-  
-- Execute sbt clean compile to build the product
+- If you have never used Play before, you can refer from [here](http://www.playframework.com/download) 
 
 - Execute sbt run to execute the product
 
